@@ -18,6 +18,16 @@
 npm install
 ```
 
+### 配置环境变量
+
+在项目根目录创建 `.env.local` 文件（此文件不会被提交到 git），添加你的 Gemini API Key：
+
+```bash
+VITE_GEMINI_API_KEY=你的_Gemini_API_Key
+```
+
+> **获取 API Key**：访问 [Google AI Studio](https://makersuite.google.com/app/apikey) 获取 Gemini API Key
+
 ### 启动开发服务器
 
 ```bash
